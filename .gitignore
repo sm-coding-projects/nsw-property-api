@@ -1,0 +1,25 @@
+# Data (raw zips + local SQLite build)
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Secrets / local env
+.env
+.dev.vars
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+.pytest_cache/
+
+# Node / Cloudflare
+node_modules/
+.wrangler/
+
+# Local-only Claude Code settings
+.claude/settings.local.json
+
+# macOS
+.DS_Store
