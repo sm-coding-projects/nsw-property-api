@@ -1,0 +1,13 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "nsw-property-api",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-07-16",
+	"observability": {
+		"enabled": true
+	},
+	"upload_source_maps": true,
+	"compatibility_flags": ["nodejs_compat"]
+	// Secrets (set via `wrangler secret put`, values never committed):
+	//   TURSO_DATABASE_URL, TURSO_READ_TOKEN, API_TOKEN
+}
